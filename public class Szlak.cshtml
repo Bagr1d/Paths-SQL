@@ -1,0 +1,18 @@
+public class Szlak
+{
+    public int IdSzlaku { get; set; }
+    public string Nazwa { get; set; }
+    public string Poczatek { get; set; }
+    public string Koniec { get; set; }
+    public string Kategoria { get; set; }
+    public string Trudnosc { get; set; }
+    public string KategorieWiekowe { get; set; }
+}
+
+public class PunktSzlaku
+{
+    public int IdPunktu { get; set; }
+    public int IdSzlaku { get; set; }
+    public string Nazwa { get; set; }
+    public string Opis { get; set; }
+}
